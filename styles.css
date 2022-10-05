@@ -1,0 +1,73 @@
+h1 {
+  font-family: "Noto Sans", sans-serif, Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  border-bottom: 3px solid #2ab0d2;
+  margin-top: 3px;
+  color: #2a84d2;
+}
+p {
+  font-family: "Quicksand", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: #e8e8e8;
+}
+.app-container,
+.button,
+textarea {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.app-container {
+  background-color: #fff;
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 2px solid #2ab0d2;
+  border-radius: 5px;
+  min-height: 350px;
+}
+.button {
+  background-color: #fff;
+  padding: 0px 20px;
+  font-size: 1.2em;
+  color: #2a84d2;
+  font-weight: bold;
+}
+
+.addtolist-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+textarea,
+.button {
+  border-radius: 5px;
+  font-family: "Quicksand", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border: 1px solid #2a84d2;
+}
+.list-container {
+  padding: 10px 40px;
+}
+.list-item {
+  font-family: "Quicksand";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-height: 35px;
+}
+
+.remove {
+  max-height: 30px;
+  background-color: #fff;
+  border: solid 1px darkred;
+  border-radius: 3px;
+  font-family: "Quicksand";
+  color: rgb(101, 33, 33);
+}
+
+textarea {
+  max-height: 20px;
+  padding: 3px;
+}
